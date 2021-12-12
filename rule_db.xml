@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rulesCollection>
+	<rule>
+		<key>毛发</key>
+		<result>哺乳动物</result>
+	</rule>
+	<rule>
+		<key>奶</key>
+		<result>哺乳动物</result>
+	</rule>
+	<rule>
+		<key>羽毛</key>
+		<result>鸟</result>
+	</rule>
+	<rule>
+		<key>会飞</key>
+		<key>会下蛋</key>
+		<result>鸟</result>
+	</rule>
+	<rule>
+		<key>吃肉</key>
+		<result>肉食动物</result>
+	</rule>
+	<rule>
+		<key>犬齿</key>
+		<key>爪</key>
+		<key>眼盯前方</key>
+		<result>肉食动物</result>
+	</rule>
+	<rule>
+		<key>哺乳动物</key>
+		<key>有蹄</key>
+		<result>有蹄类动物</result>
+	</rule>
+	<rule>
+		<key>哺乳动物</key>
+		<key>嚼反刍动物</key>
+		<result>有蹄类动物</result>
+	</rule>
+	<rule>
+		<key>哺乳动物</key>
+		<key>肉食动物</key>
+		<key>黄褐色</key>
+		<key>暗斑点</key>
+		<result specific='true'>金钱豹</result>
+	</rule>
+	<rule>
+		<key>哺乳动物</key>
+		<key>肉食动物</key>
+		<key>黄褐色</key>
+		<key>黑色条纹</key>
+		<result specific='true'>老虎</result>
+	</rule>
+	<rule>
+		<key>有蹄类动物</key>
+		<key>长脖子</key>
+		<key>长腿</key>
+		<key>暗斑点</key>
+		<result specific='true'>长颈鹿</result>
+	</rule>
+	<rule>
+		<key>有蹄类动物</key>
+		<key>黑色条纹</key>
+		<result specific='true'>斑马</result>
+	</rule>
+	<rule>
+		<key>鸟</key>
+		<key>长脖子</key>
+		<key>长腿</key>
+		<key>不会飞</key>
+		<result specific='true'>鸵鸟</result>
+	</rule>
+	<rule>
+		<key>鸟</key>
+		<key>会游泳</key>
+		<key>黑白二色</key>
+		<key>不会飞</key>
+		<result specific='true'>企鹅</result>
+	</rule>
+	<rule>
+		<key>鸟</key>
+		<key>善飞</key>
+		<result specific='true'>信天翁</result>
+	</rule>
+</rulesCollection>
